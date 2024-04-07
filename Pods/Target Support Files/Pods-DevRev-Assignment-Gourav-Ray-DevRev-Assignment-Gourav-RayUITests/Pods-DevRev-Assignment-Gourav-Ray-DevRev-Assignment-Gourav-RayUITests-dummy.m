@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_DevRev_Assignment_Gourav_Ray_DevRev_Assignment_Gourav_RayUITests : NSObject
+@end
+@implementation PodsDummy_Pods_DevRev_Assignment_Gourav_Ray_DevRev_Assignment_Gourav_RayUITests
+@end

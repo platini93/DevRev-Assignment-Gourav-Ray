@@ -1,14 +1,14 @@
 //
-//  DevRev_Assignment_Gourav_RayTests.swift
-//  DevRev-Assignment-Gourav-RayTests
+//  DevRev_assignment_Gourav_RayTests.swift
+//  DevRev-assignment-Gourav_RayTests
 //
-//  Created by Gourav Ray on 07/04/24.
+//  Created by Gourav Ray on 03/04/24.
 //
 
 import XCTest
 @testable import DevRev_Assignment_Gourav_Ray
 
-final class DevRev_Assignment_Gourav_RayTests: XCTestCase {
+final class DevRev_assignment_Gourav_RayTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="350" id="KGk-i7-Jjw" customClass="MovieDetailsBottom" customModule="DevRev_assignment_Gourav_Ray" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="350"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="350"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBa-7K-ewB">
+                        <rect key="frame" x="10" y="11" width="300" height="0.33333333333333393"/>
+                        <color key="backgroundColor" white="1" alpha="0.70394876700680276" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.20000000000000001" id="ywB-kb-UDE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="0.69690688775510201" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is the tag line little too long even a bit more" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3U-uZ-Sss">
+                        <rect key="frame" x="10" y="21.333333333333332" width="300" height="38.333333333333343"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Overview" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLq-Nw-z1m">
+                        <rect key="frame" x="10" y="69.666666666666671" width="300" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="JXe-U5-ZBq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Qc-JF-YKh">
+                        <rect key="frame" x="10" y="97.666666666666671" width="300" height="210.33333333333331"/>
+                        <string key="text">37-year-old corporate worker Mikami Satoru is stabbed by a random killer, and is reborn to an alternate world. But he turns out to be reborn a slime! Thrown into this new world with the name Rimuru Tempest, he begins his quest to create a world that’s welcoming to all races. Broken free from ordinary, stale past life, his fresh adventure in a fantasy world as a slime monster with unique abilities begins.</string>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="zLq-Nw-z1m" firstAttribute="top" secondItem="D3U-uZ-Sss" secondAttribute="bottom" constant="10" id="8Ko-Qi-fRV"/>
+                    <constraint firstAttribute="trailing" secondItem="fBa-7K-ewB" secondAttribute="trailing" constant="10" id="8Ou-78-5bN"/>
+                    <constraint firstItem="4Qc-JF-YKh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="8cB-fl-3qh"/>
+                    <constraint firstItem="fBa-7K-ewB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="9K9-zu-nYX"/>
+                    <constraint firstAttribute="trailing" secondItem="D3U-uZ-Sss" secondAttribute="trailing" constant="10" id="ABo-uP-YSA"/>
+                    <constraint firstItem="4Qc-JF-YKh" firstAttribute="top" secondItem="zLq-Nw-z1m" secondAttribute="bottom" constant="10" id="AJG-t4-Dd4"/>
+                    <constraint firstItem="D3U-uZ-Sss" firstAttribute="top" secondItem="fBa-7K-ewB" secondAttribute="bottom" constant="10" id="K7o-U5-zEt"/>
+                    <constraint firstItem="D3U-uZ-Sss" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Kyz-UJ-t7w"/>
+                    <constraint firstAttribute="trailing" secondItem="zLq-Nw-z1m" secondAttribute="trailing" constant="10" id="QAB-wC-3sV"/>
+                    <constraint firstAttribute="trailing" secondItem="4Qc-JF-YKh" secondAttribute="trailing" constant="10" id="TsD-gt-NUn"/>
+                    <constraint firstItem="fBa-7K-ewB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="XjY-Cq-La4"/>
+                    <constraint firstItem="zLq-Nw-z1m" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="mYQ-bv-KpL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="dividerLbl" destination="fBa-7K-ewB" id="9ws-m9-oOU"/>
+                <outlet property="overviewLbl" destination="4Qc-JF-YKh" id="A2M-lK-UZL"/>
+                <outlet property="overviewTitle" destination="zLq-Nw-z1m" id="HN2-5X-BHc"/>
+                <outlet property="taglineLbl" destination="D3U-uZ-Sss" id="E3z-sM-nEz"/>
+            </connections>
+            <point key="canvasLocation" x="39.694656488549619" y="106.33802816901409"/>
+        </tableViewCell>
+    </objects>
+</document>

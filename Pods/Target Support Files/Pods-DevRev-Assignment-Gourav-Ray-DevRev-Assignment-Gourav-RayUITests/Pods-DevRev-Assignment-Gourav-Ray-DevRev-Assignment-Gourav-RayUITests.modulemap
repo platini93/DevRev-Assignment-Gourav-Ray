@@ -1,0 +1,6 @@
+framework module Pods_DevRev_Assignment_Gourav_Ray_DevRev_Assignment_Gourav_RayUITests {
+  umbrella header "Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

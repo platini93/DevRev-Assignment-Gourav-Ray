@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests/Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework

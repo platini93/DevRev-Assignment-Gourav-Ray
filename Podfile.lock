@@ -1,0 +1,30 @@
+PODS:
+  - Kingfisher (7.11.0)
+  - MBProgressHUD (1.2.0)
+  - SDWebImage (5.19.1):
+    - SDWebImage/Core (= 5.19.1)
+  - SDWebImage/Core (5.19.1)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - Kingfisher (~> 7.0)
+  - MBProgressHUD
+  - SDWebImage (~> 5.0)
+  - Toast-Swift (~> 5.0.1)
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - MBProgressHUD
+    - SDWebImage
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Kingfisher: b9c985d864d43515f404f1ef4a8ce7d802ace3ac
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SDWebImage: 40b0b4053e36c660a764958bff99eed16610acbb
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 0396180e3b7bf53727483790cbe56c1dd77c86c0
+
+COCOAPODS: 1.14.3

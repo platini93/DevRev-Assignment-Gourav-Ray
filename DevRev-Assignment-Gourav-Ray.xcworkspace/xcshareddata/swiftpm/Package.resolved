@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "networkframework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/platini93/NetworkFramework",
+      "state" : {
+        "branch" : "main",
+        "revision" : "94c3ffa925ccdbb0c3fa6ec544d62c54e43318af"
+      }
+    }
+  ],
+  "version" : 2
+}
