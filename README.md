@@ -1,7 +1,7 @@
 **Movies List Demo-App**
 
 
-![movies-compressed](https://github.com/platini93/DevRev-Assignment-Gourav-Ray/assets/114639278/b4a1349c-9b9c-4861-94d3-873be29f7553)
+![movielist](https://github.com/platini93/DevRev-Assignment-Gourav-Ray/assets/114639278/13f8631f-62ad-4bcd-813c-400273c15e33)
 
 
 **Installation**
