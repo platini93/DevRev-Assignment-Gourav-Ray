@@ -7,7 +7,7 @@ class MoviesListViewController: UIViewController {
     @IBOutlet weak var segmentedControlView: UIView!
     @IBOutlet weak var movieCollectionView: UICollectionView!
     
-    var sgControl = SegmentedControl(items: ["Latest", "Popular"])
+    var sgControl = SegmentedControl(items: [AppConstants.SegmentNames.latest.value, AppConstants.SegmentNames.popular.value])
     var selectedSegment = AppConstants.SelectedSegment.latest
     
     var moviesListViewModel:MoviesListViewModelProtocol?
@@ -109,7 +109,6 @@ class MoviesListViewController: UIViewController {
     }
     
     func fetchLatestMoviesList(reloadAnimation:Bool=true) {
-        //GR: added
         guard CacheManager.isCachedConfigDataAvailable() else {
             fetchMasterData()
             return
@@ -121,7 +120,6 @@ class MoviesListViewController: UIViewController {
     }
     
     func fetchPopularMoviesList(reloadAnimation:Bool=true) {
-        //GR: added
         guard CacheManager.isCachedConfigDataAvailable() else {
             fetchMasterData()
             return

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23A0EAF9618E01536A76BCF4 /* Pods_DevRev_Assignment_Gourav_Ray.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612391CEC05BD10CCF431B21 /* Pods_DevRev_Assignment_Gourav_Ray.framework */; };
+		54DC121F0EAAFFC50DEB0620 /* Pods_DevRev_Assignment_Gourav_Ray_DevRev_Assignment_Gourav_RayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAF2707E973DD2A5FC0C433 /* Pods_DevRev_Assignment_Gourav_Ray_DevRev_Assignment_Gourav_RayUITests.framework */; };
 		69268A6E2BC2B9FC00C167AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69268A6D2BC2B9FC00C167AD /* AppDelegate.swift */; };
 		69268A752BC2B9FC00C167AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69268A732BC2B9FC00C167AD /* Main.storyboard */; };
 		69268A772BC2B9FD00C167AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69268A762BC2B9FD00C167AD /* Assets.xcassets */; };
@@ -44,8 +44,8 @@
 		69D6EDA52BC2BCA80002DD8E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D6ED8A2BC2BCA70002DD8E /* AppCoordinator.swift */; };
 		69D6EDA82BC2BCF30002DD8E /* NetworkFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 69D6EDA72BC2BCF30002DD8E /* NetworkFramework */; };
 		69D6EDAB2BC2C0620002DD8E /* MovieListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D6EDA92BC2BFF80002DD8E /* MovieListViewModelTest.swift */; };
-		C44059F70D7245206337CA8C /* Pods_DevRev_Assignment_Gourav_RayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3D9388293D4C76B49F771A /* Pods_DevRev_Assignment_Gourav_RayTests.framework */; };
-		EBCFFD32FC35EBA2459E97D5 /* Pods_DevRev_Assignment_Gourav_Ray_DevRev_Assignment_Gourav_RayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957833DE88F9CF2FDA55BAE4 /* Pods_DevRev_Assignment_Gourav_Ray_DevRev_Assignment_Gourav_RayUITests.framework */; };
+		6EE2AEE08015A661EDF02538 /* Pods_DevRev_Assignment_Gourav_Ray.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C657187D46BFA2BDA144CF5 /* Pods_DevRev_Assignment_Gourav_Ray.framework */; };
+		7091DFF8B9199FE11CCDAFA7 /* Pods_DevRev_Assignment_Gourav_RayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F61A90C8907FF34178191E /* Pods_DevRev_Assignment_Gourav_RayTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,11 +66,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2BFDE6C3F74A8A6C6F00401C /* Pods-DevRev-Assignment-Gourav-Ray.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevRev-Assignment-Gourav-Ray.release.xcconfig"; path = "Target Support Files/Pods-DevRev-Assignment-Gourav-Ray/Pods-DevRev-Assignment-Gourav-Ray.release.xcconfig"; sourceTree = "<group>"; };
-		2DCE55ADF3EF8713E4CDCC15 /* Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.release.xcconfig"; path = "Target Support Files/Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests/Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.release.xcconfig"; sourceTree = "<group>"; };
-		348D06B8965E72B3E9452041 /* Pods-DevRev-Assignment-Gourav-RayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevRev-Assignment-Gourav-RayTests.release.xcconfig"; path = "Target Support Files/Pods-DevRev-Assignment-Gourav-RayTests/Pods-DevRev-Assignment-Gourav-RayTests.release.xcconfig"; sourceTree = "<group>"; };
-		4B41C3CE45AEDAD800C79862 /* Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.debug.xcconfig"; path = "Target Support Files/Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests/Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		612391CEC05BD10CCF431B21 /* Pods_DevRev_Assignment_Gourav_Ray.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevRev_Assignment_Gourav_Ray.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAF2707E973DD2A5FC0C433 /* Pods_DevRev_Assignment_Gourav_Ray_DevRev_Assignment_Gourav_RayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevRev_Assignment_Gourav_Ray_DevRev_Assignment_Gourav_RayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FE63D9AEB0BCA736D86943 /* Pods-DevRev-Assignment-Gourav-RayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevRev-Assignment-Gourav-RayTests.release.xcconfig"; path = "Target Support Files/Pods-DevRev-Assignment-Gourav-RayTests/Pods-DevRev-Assignment-Gourav-RayTests.release.xcconfig"; sourceTree = "<group>"; };
+		33BA3D47C3014442529BBC17 /* Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.debug.xcconfig"; path = "Target Support Files/Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests/Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C657187D46BFA2BDA144CF5 /* Pods_DevRev_Assignment_Gourav_Ray.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevRev_Assignment_Gourav_Ray.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69268A6A2BC2B9FC00C167AD /* DevRev-Assignment-Gourav-Ray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DevRev-Assignment-Gourav-Ray.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69268A6D2BC2B9FC00C167AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69268A742BC2B9FC00C167AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -110,10 +109,11 @@
 		69D6ED882BC2BCA70002DD8E /* MoviesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesListViewController.swift; sourceTree = "<group>"; };
 		69D6ED8A2BC2BCA70002DD8E /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		69D6EDA92BC2BFF80002DD8E /* MovieListViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListViewModelTest.swift; sourceTree = "<group>"; };
-		6B3D9388293D4C76B49F771A /* Pods_DevRev_Assignment_Gourav_RayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevRev_Assignment_Gourav_RayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		957833DE88F9CF2FDA55BAE4 /* Pods_DevRev_Assignment_Gourav_Ray_DevRev_Assignment_Gourav_RayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevRev_Assignment_Gourav_Ray_DevRev_Assignment_Gourav_RayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9853BF2937D473E051D270FE /* Pods-DevRev-Assignment-Gourav-RayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevRev-Assignment-Gourav-RayTests.debug.xcconfig"; path = "Target Support Files/Pods-DevRev-Assignment-Gourav-RayTests/Pods-DevRev-Assignment-Gourav-RayTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F6BE5E68B97485D5DC1D9364 /* Pods-DevRev-Assignment-Gourav-Ray.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevRev-Assignment-Gourav-Ray.debug.xcconfig"; path = "Target Support Files/Pods-DevRev-Assignment-Gourav-Ray/Pods-DevRev-Assignment-Gourav-Ray.debug.xcconfig"; sourceTree = "<group>"; };
+		738CC93CBE615C584CCBEB06 /* Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.release.xcconfig"; path = "Target Support Files/Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests/Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7E9A5C13408BF0FE164D836E /* Pods-DevRev-Assignment-Gourav-Ray.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevRev-Assignment-Gourav-Ray.debug.xcconfig"; path = "Target Support Files/Pods-DevRev-Assignment-Gourav-Ray/Pods-DevRev-Assignment-Gourav-Ray.debug.xcconfig"; sourceTree = "<group>"; };
+		C4F61A90C8907FF34178191E /* Pods_DevRev_Assignment_Gourav_RayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevRev_Assignment_Gourav_RayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16B62E8ED3EBB326FD7994A /* Pods-DevRev-Assignment-Gourav-RayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevRev-Assignment-Gourav-RayTests.debug.xcconfig"; path = "Target Support Files/Pods-DevRev-Assignment-Gourav-RayTests/Pods-DevRev-Assignment-Gourav-RayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD7E8D37B9C533675F53ED22 /* Pods-DevRev-Assignment-Gourav-Ray.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevRev-Assignment-Gourav-Ray.release.xcconfig"; path = "Target Support Files/Pods-DevRev-Assignment-Gourav-Ray/Pods-DevRev-Assignment-Gourav-Ray.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69D6EDA82BC2BCF30002DD8E /* NetworkFramework in Frameworks */,
-				23A0EAF9618E01536A76BCF4 /* Pods_DevRev_Assignment_Gourav_Ray.framework in Frameworks */,
+				6EE2AEE08015A661EDF02538 /* Pods_DevRev_Assignment_Gourav_Ray.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C44059F70D7245206337CA8C /* Pods_DevRev_Assignment_Gourav_RayTests.framework in Frameworks */,
+				7091DFF8B9199FE11CCDAFA7 /* Pods_DevRev_Assignment_Gourav_RayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +138,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBCFFD32FC35EBA2459E97D5 /* Pods_DevRev_Assignment_Gourav_Ray_DevRev_Assignment_Gourav_RayUITests.framework in Frameworks */,
+				54DC121F0EAAFFC50DEB0620 /* Pods_DevRev_Assignment_Gourav_Ray_DevRev_Assignment_Gourav_RayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		013EC26C3747DF73F9142209 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				612391CEC05BD10CCF431B21 /* Pods_DevRev_Assignment_Gourav_Ray.framework */,
-				957833DE88F9CF2FDA55BAE4 /* Pods_DevRev_Assignment_Gourav_Ray_DevRev_Assignment_Gourav_RayUITests.framework */,
-				6B3D9388293D4C76B49F771A /* Pods_DevRev_Assignment_Gourav_RayTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		69268A612BC2B9FC00C167AD = {
 			isa = PBXGroup;
 			children = (
@@ -163,7 +153,7 @@
 				69268A8D2BC2B9FD00C167AD /* DevRev-Assignment-Gourav-RayUITests */,
 				69268A6B2BC2B9FC00C167AD /* Products */,
 				C47DD59B7E87603C0F30BC45 /* Pods */,
-				013EC26C3747DF73F9142209 /* Frameworks */,
+				F699A4B37B4622EB8A6463E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -405,14 +395,24 @@
 		C47DD59B7E87603C0F30BC45 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F6BE5E68B97485D5DC1D9364 /* Pods-DevRev-Assignment-Gourav-Ray.debug.xcconfig */,
-				2BFDE6C3F74A8A6C6F00401C /* Pods-DevRev-Assignment-Gourav-Ray.release.xcconfig */,
-				4B41C3CE45AEDAD800C79862 /* Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.debug.xcconfig */,
-				2DCE55ADF3EF8713E4CDCC15 /* Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.release.xcconfig */,
-				9853BF2937D473E051D270FE /* Pods-DevRev-Assignment-Gourav-RayTests.debug.xcconfig */,
-				348D06B8965E72B3E9452041 /* Pods-DevRev-Assignment-Gourav-RayTests.release.xcconfig */,
+				7E9A5C13408BF0FE164D836E /* Pods-DevRev-Assignment-Gourav-Ray.debug.xcconfig */,
+				FD7E8D37B9C533675F53ED22 /* Pods-DevRev-Assignment-Gourav-Ray.release.xcconfig */,
+				33BA3D47C3014442529BBC17 /* Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.debug.xcconfig */,
+				738CC93CBE615C584CCBEB06 /* Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.release.xcconfig */,
+				F16B62E8ED3EBB326FD7994A /* Pods-DevRev-Assignment-Gourav-RayTests.debug.xcconfig */,
+				31FE63D9AEB0BCA736D86943 /* Pods-DevRev-Assignment-Gourav-RayTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F699A4B37B4622EB8A6463E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C657187D46BFA2BDA144CF5 /* Pods_DevRev_Assignment_Gourav_Ray.framework */,
+				1CAF2707E973DD2A5FC0C433 /* Pods_DevRev_Assignment_Gourav_Ray_DevRev_Assignment_Gourav_RayUITests.framework */,
+				C4F61A90C8907FF34178191E /* Pods_DevRev_Assignment_Gourav_RayTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,11 +422,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69268A942BC2B9FD00C167AD /* Build configuration list for PBXNativeTarget "DevRev-Assignment-Gourav-Ray" */;
 			buildPhases = (
-				291219FD751CC5A4C063BA1E /* [CP] Check Pods Manifest.lock */,
+				6D36A5D3F18BA295A32347F8 /* [CP] Check Pods Manifest.lock */,
 				69268A662BC2B9FC00C167AD /* Sources */,
 				69268A672BC2B9FC00C167AD /* Frameworks */,
 				69268A682BC2B9FC00C167AD /* Resources */,
-				6F0826CEA971352CE6E20CFA /* [CP] Embed Pods Frameworks */,
+				BB5287F8F8A8D3D22AB32EEE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -444,7 +444,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69268A972BC2B9FD00C167AD /* Build configuration list for PBXNativeTarget "DevRev-Assignment-Gourav-RayTests" */;
 			buildPhases = (
-				15093CFB5E6DACC671310ADE /* [CP] Check Pods Manifest.lock */,
+				ABA8127FA4F0D131EB0A5CF5 /* [CP] Check Pods Manifest.lock */,
 				69268A7C2BC2B9FD00C167AD /* Sources */,
 				69268A7D2BC2B9FD00C167AD /* Frameworks */,
 				69268A7E2BC2B9FD00C167AD /* Resources */,
@@ -463,11 +463,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69268A9A2BC2B9FD00C167AD /* Build configuration list for PBXNativeTarget "DevRev-Assignment-Gourav-RayUITests" */;
 			buildPhases = (
-				A67323858A30DBD62102C764 /* [CP] Check Pods Manifest.lock */,
+				EB60740B6E2B79A8344F4A30 /* [CP] Check Pods Manifest.lock */,
 				69268A862BC2B9FD00C167AD /* Sources */,
 				69268A872BC2B9FD00C167AD /* Frameworks */,
 				69268A882BC2B9FD00C167AD /* Resources */,
-				8033D1E4BD6AD22A2706F47C /* [CP] Embed Pods Frameworks */,
+				82B2445DAEEDD315F5BBCF81 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -556,29 +556,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		15093CFB5E6DACC671310ADE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DevRev-Assignment-Gourav-RayTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		291219FD751CC5A4C063BA1E /* [CP] Check Pods Manifest.lock */ = {
+		6D36A5D3F18BA295A32347F8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -600,24 +578,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6F0826CEA971352CE6E20CFA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DevRev-Assignment-Gourav-Ray/Pods-DevRev-Assignment-Gourav-Ray-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DevRev-Assignment-Gourav-Ray/Pods-DevRev-Assignment-Gourav-Ray-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DevRev-Assignment-Gourav-Ray/Pods-DevRev-Assignment-Gourav-Ray-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8033D1E4BD6AD22A2706F47C /* [CP] Embed Pods Frameworks */ = {
+		82B2445DAEEDD315F5BBCF81 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -634,7 +595,46 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests/Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A67323858A30DBD62102C764 /* [CP] Check Pods Manifest.lock */ = {
+		ABA8127FA4F0D131EB0A5CF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DevRev-Assignment-Gourav-RayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB5287F8F8A8D3D22AB32EEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DevRev-Assignment-Gourav-Ray/Pods-DevRev-Assignment-Gourav-Ray-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DevRev-Assignment-Gourav-Ray/Pods-DevRev-Assignment-Gourav-Ray-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DevRev-Assignment-Gourav-Ray/Pods-DevRev-Assignment-Gourav-Ray-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB60740B6E2B79A8344F4A30 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -865,7 +865,7 @@
 		};
 		69268A952BC2B9FD00C167AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6BE5E68B97485D5DC1D9364 /* Pods-DevRev-Assignment-Gourav-Ray.debug.xcconfig */;
+			baseConfigurationReference = 7E9A5C13408BF0FE164D836E /* Pods-DevRev-Assignment-Gourav-Ray.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -894,7 +894,7 @@
 		};
 		69268A962BC2B9FD00C167AD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BFDE6C3F74A8A6C6F00401C /* Pods-DevRev-Assignment-Gourav-Ray.release.xcconfig */;
+			baseConfigurationReference = FD7E8D37B9C533675F53ED22 /* Pods-DevRev-Assignment-Gourav-Ray.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -923,7 +923,7 @@
 		};
 		69268A982BC2B9FD00C167AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9853BF2937D473E051D270FE /* Pods-DevRev-Assignment-Gourav-RayTests.debug.xcconfig */;
+			baseConfigurationReference = F16B62E8ED3EBB326FD7994A /* Pods-DevRev-Assignment-Gourav-RayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -943,7 +943,7 @@
 		};
 		69268A992BC2B9FD00C167AD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 348D06B8965E72B3E9452041 /* Pods-DevRev-Assignment-Gourav-RayTests.release.xcconfig */;
+			baseConfigurationReference = 31FE63D9AEB0BCA736D86943 /* Pods-DevRev-Assignment-Gourav-RayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -963,7 +963,7 @@
 		};
 		69268A9B2BC2B9FD00C167AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B41C3CE45AEDAD800C79862 /* Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.debug.xcconfig */;
+			baseConfigurationReference = 33BA3D47C3014442529BBC17 /* Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -981,7 +981,7 @@
 		};
 		69268A9C2BC2B9FD00C167AD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DCE55ADF3EF8713E4CDCC15 /* Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.release.xcconfig */;
+			baseConfigurationReference = 738CC93CBE615C584CCBEB06 /* Pods-DevRev-Assignment-Gourav-Ray-DevRev-Assignment-Gourav-RayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -100,6 +100,16 @@ enum AppConstants {
             }
         }
     }
+    enum SegmentNames{
+        case latest
+        case popular
+        var value:String {
+            switch self {
+            case .latest: return "Latest"
+            case .popular: return "Popular"
+            }
+        }
+    }
 }
 
 
