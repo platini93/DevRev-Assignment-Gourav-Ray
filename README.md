@@ -7,13 +7,13 @@
 **Installation**
 
 
-_For Pod errors if any -_
+____For Pod errors if any -____
 
 1. pod deintegrate
 2. pod install --repo-update
 
 
-_For swift package errors if any -_
+__For swift package errors if any -__
 
 File > Packages > Update to Latest Package Versions
 
